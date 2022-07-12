@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="numbers">
+            <label for="title">Informe o primeiro numero:</label>
+            <input type="text" id="numero1">
+            <label for="title">Informe o segundo numero:</label>
+            <input type="text" id="numero2">
+        </div>
+        <div id="operations">
+            <button id="somar" onclick="somar()">+</button>
+            <button id="subtrair" onclick="subtrair()">-</button>
+            <button id="multiplicar" onclick="multiplicar()">x</button>
+            <button id="dividir" onclick="dividir()">/</button>
+        </div>
+        <div id="cleanButton">
+            <button id="limpar" onclick="limpar()">LIMPAR</button>
+        </div>
+        <p id="resultado"></p>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
